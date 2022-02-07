@@ -1,0 +1,132 @@
+ <!DOCTYPE html>
+ <html lang="en">
+
+ <head>
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Bona+Nova:ital@1&display=swap" rel="stylesheet">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Fuggles&display=swap" rel="stylesheet">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Jomhuria&display=swap" rel="stylesheet">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap" rel="stylesheet">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Yomogi&display=swap" rel="stylesheet">
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+     <link href="https://fonts.googleapis.com/css2?family=Limelight&display=swap" rel="stylesheet">
+     <link rel="stylesheet" type="text/css" href="page-style/style.css">
+     <link rel="icon" href="icons/google-forms.png">
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <title>A Survey Form By Kishan</title>
+ </head>
+ <h1 id="title"><i>A Survey Form By Kishan</i></h1>
+
+ <body>
+  <script src="https://translate.google.com/translate_a/element.js?cb=loadGoogleTranslate"></script>
+<script>
+    alert("Please don't spam by giving fake information.Thank-You");
+</script>
+<script>
+    function loadGoogleTranslate() {
+        new google.translate.TranslateElement("google_element");
+    }
+
+    function submitFunction() {
+      if(!document.getElementById("text-area-2").value == ""){
+          alert("Thank you for submitting this form.")
+      } 
+    }
+     console.log("WARNING!");
+        console.log("Using this console may allow attackers to impersonate you and steal your information using an attack called Self-XSS.Do not enter or paste code that you don't understand.");
+</script>
+<script>
+        function validateForm() {
+        if(document.getElementById("name").value == ""){
+            alert("Please enter your name.");
+            return false;
+        }
+        if(document.getElementById("email").value == ""){
+            alert("Please enter your email address.");
+            return false;}
+        if(document.getElementById("number").value == ""){
+            alert("Please enter your mobile number.");
+            return false;
+        }
+        if(document.getElementById("dropdown").value == ""){
+            alert("Please select your current role.")
+            return false;
+        }
+        if(document.getElementById("text-area-1").value == ""){
+            alert("Please enter your Hobby Details.")
+            return false;
+        }
+        if(document.getElementById("text-area-2").value == ""){
+            alert("Please Tell Us How To Improve Our Website?")
+            return false;
+        }
+        }       
+</script>
+     <p class="title2">Please Fill This Form With
+      Honesty</p>
+  <div id="google_element" align="center" style="color:#e0ffff; font-size: 2rem;">Please select your language as per your
+    convenience</div>
+     <form id="myform" onsubmit="return validateForm()" action="https://formsubmit.co/kishanramesh05@gmail.com" method="POST">
+         <div class="name"> <input type="hidden" name="_subject" value="New Email Submitted">
+             <input type="hidden" name="_next"
+                 value="https://kishan-ramesh.github.io/A-SURVEY-FORM-BY-ME/Thank-You/">
+             <input type="hidden" name="_captcha" value="false">
+             <div id="full-content"> <label id="name-label" for="name">Name</label>
+                 <input id="name" type="text" name="name" placeholder="Enter your name">
+                 <label id="email-label" for="email">Email</label> <input id="email" type="email" name="emailaddress"
+                     placeholder="Enter your email address"> <label id="number-label"
+                     for="number">Number</label> <input id="number" type="number" name="number"
+                     placeholder="Enter Your Mobile Number">
+                 <div id="india-orange"> <label id="Hobbies" name="What
+                            Hobbies">
+                         <P>Please Select Your Hobby:-</P>
+                         <ol>
+                             <li><input class="Hobbies1" name="Hobbie1" type="checkbox" value="cycling">Cycling</li>
+                             <li><input class="Hobbies2" name="Hobbie2" type="checkbox" value="Drawing">Drawing</li>
+                             <li><input class="Hobbies3" name="Hobbie3" type="checkbox" value="Badminton">Badminton</li>
+                             <li><input class="Hobbies4" name="Hobbie4" type="checkbox" value="Cricket">Cricket</li>
+                             <li><input class="Hobbies5" name="Hobbie5" type="checkbox" value="Swimming">Swimming</li>
+                             <li><input class="Hobbies6" name="Hobbie6" type="checkbox" value="Sports">Sports</li>
+                             <li><input class="Hobbies7" name="Hobbie7" type="checkbox" value="Reading Books">Reading Books</li>
+                             <li><input class="Hobbies8" name="Hobbie8" type="checkbox" value="Dancing">Dancing</li>
+                             <li><input class="Hobbies9" name="Hobbie9" type="checkbox" value="Others">Others</li>
+                         </ol>
+                     </label>
+                     <div class="form-group">
+                         <p>Which option best describes your current role?</p><select id="dropdown" type="role" name="Which option best describes your current role?">
+                             <option disabled selected value>Please Select Any One</option>
+                             <option>Student</option>
+                             <option>Coder</option>
+                             <option>Doing A Job</option>
+                             <option>Doing Your Intrest</option>
+                             <option>Prepearing For Exams</option>
+                             <option>Others</option>
+                         </select>
+                     </div>
+                 </div>
+                 <div class="form-textarea">
+                     <P class="india-white">Type Your Hobbies Details Here
+                         Any One Hobby Detail.</P> <textarea id="text-area-1" name="Type Your Hobbies Details
+                            Here Any One Hobby Detail" type="comments" placeholder="Here!"></textarea>
+                 </div>
+                 <P class="india-white">Please Tell Us How To Improve Our
+                     Website?</P> <textarea id="text-area-2" name="Please Tell Us How To Improve Our Website"
+                     type="comments" placeholder="Here!"></textarea>
+             </div>
+      </div>
+         <p class="india-lightgreen last-line">Here The <a id="Source-Code" target="_blank"
+                 href="https://github.com/kishan-ramesh/A-SURVEY-FORM-BY-ME">Source
+                 Code</a> Of The Pages.</p><input id="button" type="submit" value="Submit" onclick="submitFunction()">
+     </form>
+ </body>
+ </html>

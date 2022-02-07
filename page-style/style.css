@@ -1,0 +1,171 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ /*credit goes to Manuel Pinto at codepen.io https://codepen.io/P1N2O for the background color Thank you sir */
+body {
+	background: linear-gradient(-45deg, Red, Yellow,Cyan,Blue,Magenta);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+html{
+    font-size:62.5%; 
+}
+#name-label{
+    color:orange;
+}
+#number-label{
+    color:lightgreen;
+}
+#dropdown{
+   
+font-size:2.5rem;
+    color: blue;
+    background-color: white;
+}
+.india-white{
+    color:#fff;
+}
+.india-lightgreen{
+    color:lightgreen;
+}
+#Source-Code{
+    color:blue;
+    text-decoration: none;
+}
+#title{
+    font-size: 2rem;
+    text-align:center;
+    
+color:orange;
+
+}
+
+   
+#button{
+    
+    font-size:2.5rem;
+ display: inline-block;
+ background-color:white;
+ color:blue;
+ 
+ font-family: 'Bona Nova', serif;
+ padding:1.2rem;
+}
+#india-orange{
+    color:orange;
+}
+    
+    .title2{
+        text-align:center;
+      font-size: 2rem;
+      color: #e0ffff;
+      
+    
+        
+    }
+    #text-area-1{
+        width: 52%;
+        font-size:2rem;
+        background-color: aquamarine;
+        color:blue;
+       
+        
+    }
+    
+    #text-area-2{
+        width: 52%;
+        font-size:2rem;
+        background-color:lightgreen;
+        color:blue;
+        
+    }
+    .last-line{
+        font-size:2rem;
+    }
+   @media (max-width: 998px){
+       html{
+           font-size:60%;
+       }
+   }
+
+ @media (min-width:1700px){
+html{
+    font-size: 1.3rem;
+}
+ }
+ @media (max-width:728px){
+        #name{
+            width: 100%;
+        }
+        #email{
+            width: 100%;
+        }
+        #number{
+            width: 100%;
+        }
+}
+@media (max-width:324px){
+    #dropdown{
+        width:80%;
+    }
+}
+ .form-group{
+     margin-top:2rem;
+ }
+ #full-content{
+    color:#fff;
+    font-size:2.5rem;
+}
+
+ #name{
+     color:green;
+     background-color:orange;
+     font-size:1.2rem;
+ }
+            
+ #Hobbies{
+     font-size:1.5rem;
+    
+ }
+ #Hobbies > p{
+    font-size:2rem;
+   
+}
+#Hobbies > ol{
+    margin-top:1rem;
+   
+}
+
+        
+    
+ #email{
+     color: blue;
+     background-color:#fff;
+     font-size:1.2rem;
+ }
+
+
+ #number{
+     color:orange;
+     background-color:lightgreen;
+     font-size:1.2rem;
+
+ }
+#button:hover{
+    color: #fff;
+    background-color:blue;
+}
