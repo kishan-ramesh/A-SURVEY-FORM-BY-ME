@@ -6,10 +6,6 @@ Here this is the example how the Survey-Form looks like.
 
 https://kishan-ramesh.github.io/A-SURVEY-FORM-BY-ME/
 
-And this is the custom domain of this Survey-Form.
-
-https://www.kishanpro.tk/
-
 You can use my source code for your projects.
 
 #Happy Coding
